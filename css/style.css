@@ -63,6 +63,11 @@ p {
   margin-bottom: 15px;
 }
 
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
 #content {
   max-width: 940px;
   margin: auto;
@@ -75,27 +80,6 @@ p {
 }
 
 a { text-decoration: none;}
-
-/********** D3 **********/
-
-.xaxis, .yaxis, .label {
-  font-size: 90%;
-}
-
-.axis path,
-.axis line {
-  shape-rendering: crispEdges;
-}
-
-.line {
-  fill: none;
-  stroke: #8c510a;
-  stroke-width: 2;
-}
-
-text {
-  font-size: 80%;
-}
 
 /********** Mobile compatibility **********/
 @media only screen and (max-width: 1100px) {
