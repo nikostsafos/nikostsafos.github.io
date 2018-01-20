@@ -119,6 +119,12 @@ a { text-decoration: none;}
     color: white;
 }
 
+/* Tumblr */
+.fa-tumblr {
+    background: #35465c;
+    color: white;
+}
+
 /********** Mobile compatibility **********/
 @media only screen and (max-width: 1100px) {
 
